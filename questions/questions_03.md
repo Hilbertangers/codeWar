@@ -1,4 +1,4 @@
-# <a href="https://www.codewars.com/kata/5259510fc76e59579e0009d4/train/javascript">Q3(3kyu) js模糊查询</a>
+# <a href="https://www.codewars.com/kata/5259510fc76e59579e0009d4/train/javascript">Q3(3kyu) js模糊查询</a>❤️
 I'm sure, you know Google's "Did you mean ...?", when you entered a search term and mistyped a word. In this kata we want to implement something similar.
 
 You'll get an entered term (lowercase string) and an array of known words (also lowercase strings). Your task is to find out, which word from the dictionary is most similar to the entered one. The similarity is described by the minimum number of letters you have to add, remove or replace in order to get from the entered word to one of the dictionary. The lower the number of required changes, the higher the similarity between each two words.
