@@ -22,3 +22,7 @@ languages.findMostSimilar('javascript'); // must return "javascript" (same words
 ```
 
 I know, many of you would disagree that java is more similar to heaven than all the other ones, but in this kata it is ;)`😁`
+
+
+## Code
+<a href="https://github.com/Hilbertangers/codeWar/blob/master/code/code_03.js">`talk is cheap. show me the code`</a>

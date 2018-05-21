@@ -19,3 +19,6 @@ C          100
 D          500
 M          1,000
 ```
+
+## Code
+<a href="https://github.com/Hilbertangers/codeWar/blob/master/code/code_01.js">`talk is cheap. show me the code`</a>

@@ -42,3 +42,6 @@ testMaze(false,
 
 });
 ```
+
+## Code
+<a href="https://github.com/Hilbertangers/codeWar/blob/master/code/code_02.js">`talk is cheap. show me the code`</a>
