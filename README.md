@@ -19,3 +19,6 @@ node code_01.js
 <p>
     <a href="https://github.com/Hilbertangers/codeWar/blob/master/questions/questions_03.md">Q3(3kyu) js模糊查询</a>
 </p>
+<p>
+    <a href="https://github.com/Hilbertangers/codeWar/blob/master/questions/questions_04.md">Q4(4kyu) 路由参数过滤</a>
+</p>
