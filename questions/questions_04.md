@@ -9,3 +9,6 @@ stripUrlParams('www.codewars.com?a=1&b=2&a=2') // returns 'www.codewars.com?a=1&
 stripUrlParams('www.codewars.com?a=1&b=2&a=2', ['b']) // returns 'www.codewars.com?a=1'
 stripUrlParams('www.codewars.com', ['b']) // returns 'www.codewars.com'
 ```
+
+## Code
+<a href="https://github.com/Hilbertangers/codeWar/blob/master/code/code_04.js">`talk is cheap. show me the code`</a>
