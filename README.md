@@ -1,7 +1,7 @@
 # codeWar
 
 <p>
-    记录平时做<a href="https://www.codewars.com">codeWar</a>5级以后的题目
+    记录业余时间使用<a href="https://www.codewars.com">codeWar</a>遇到的5级以上的题目
 </p>
 
 ## test:
@@ -10,6 +10,9 @@ node code_01.js
 ```
 
 ## question-list:
+```
+index(level) description
+```
 <p>
     <a href="https://github.com/Hilbertangers/codeWar/blob/master/questions/questions_01.md">Q1(4kyu) 罗马数转阿拉伯</a>
 </p>
