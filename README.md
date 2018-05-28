@@ -22,3 +22,6 @@ node code_01.js
 <p>
     <a href="https://github.com/Hilbertangers/codeWar/blob/master/questions/questions_04.md">Q4(4kyu) 路由参数过滤</a>
 </p>
+<p>
+    <a href="https://github.com/Hilbertangers/codeWar/blob/master/questions/questions_05.md">Q5(4kyu) 帕斯卡三角系</a>
+</p>
