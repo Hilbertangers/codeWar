@@ -1,4 +1,4 @@
-# <a href="http://www.codewars.com/kata/5226eb40316b56c8d500030f/train/javascript">Q4(4kyu) 帕斯卡三角系</a>
+# <a href="http://www.codewars.com/kata/5226eb40316b56c8d500030f/train/javascript">Q4(4kyu) 杨辉三角系</a>
 <img src="https://upload.wikimedia.org/wikipedia/commons/0/0d/PascalTriangleAnimated2.gif">
 Wikipedia article on Pascal's Triangle: http://en.wikipedia.org/wiki/Pascal's_triangle
 
