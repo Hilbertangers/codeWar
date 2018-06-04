@@ -29,5 +29,5 @@ index(level) description
     <a href="https://github.com/Hilbertangers/codeWar/blob/master/questions/questions_05.md">Q5(4kyu) 杨辉三角系</a>
 </p>
 <p>
-    <a href="https://github.com/Hilbertangers/codeWar/blob/master/questions/questions_05.md">Q6(3kyu) 简单栅栏密码的编码和解码</a>
+    <a href="https://github.com/Hilbertangers/codeWar/blob/master/questions/questions_06.md">Q6(3kyu) 简单栅栏密码的编码和解码</a>
 </p>
