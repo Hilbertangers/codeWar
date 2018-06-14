@@ -34,3 +34,6 @@ index(level) description
 <p>
     <a href="https://github.com/Hilbertangers/codeWar/blob/master/questions/questions_07.md">Q7(3kyu) 多类型字符串数字相乘</a>
 </p>
+<p>
+    <a href="https://github.com/Hilbertangers/codeWar/blob/master/questions/questions_08.md">Q8(2kyu) 24点计算（复杂版）</a>
+</p>
