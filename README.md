@@ -1,4 +1,4 @@
-# codeWar
+# 🍰 codeWar
 
 <p>
     记录业余时间使用<a href="https://www.codewars.com">codeWar</a>遇到的5级以上的题目（全部由javascript写解法）
