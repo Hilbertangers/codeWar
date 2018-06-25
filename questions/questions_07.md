@@ -1,4 +1,4 @@
-# <a href="https://www.codewars.com/kata/multiplying-numbers-as-strings-part-ii/train/javascript">Q7(3kyu) 多类型字符串数字相乘</a>
+# <a href="https://www.codewars.com/kata/multiplying-numbers-as-strings-part-ii/train/javascript">Q7(3kyu) 字符串数字相乘--模拟乘法和加法</a>
 ##  TODO
 Multiply two numbers! Simple!
 
