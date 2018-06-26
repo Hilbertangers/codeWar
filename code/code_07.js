@@ -1,26 +1,12 @@
+/**
+ * 浮点和整型模拟乘法
+ * @param {String} m 
+ * @param {String} n 
+ */
 function multiply(m, n) {
-    const paramsFilter = num => num.match(/^(-?\d+)(\.\d+)?$/g);
+    const paramsFilter = num => num.match(/^(-?\d+)(\.\d*)?$/g);
     const removeZeroBehind = num => num.replace(/0*$|\.0*$/g, '');
     const removeDotNegative = num => num.replace(/^-?|\.?/g, '');
-    // 尾数相增
-    const tailAdd = (a, b) => {
-        let res = a.split('');
-        function akm (n, i) {
-            if (res.length - 1 >= i) {
-                let lastAdd = Number(res[res.length - 1 - i]) + Number(n);
-                res[res.length - 1 - i] = String(lastAdd).slice(-1);
-                if (lastAdd >= 10) {
-                    akm(String(lastAdd).slice(-2, -1), ++i);
-                } else {
-                    return;
-                }
-            } else {
-                return res.unshift('1');
-            }
-        }
-        akm(b, 0);
-        return res.join('');
-    }
     const negative = (a, b) => {
         let flag = 0;
         if (a.indexOf('-') !== -1) flag++;
@@ -54,7 +40,7 @@ function multiply(m, n) {
             if (m4a1 < 10 || !forgetName) {
                 forgetName = forgetName.concat(String(m4a1));
             } else if (forgetName) {
-                forgetName = tailAdd(forgetName, String(m4a1).slice(-2, -1)) + String(m4a1).slice(-1);
+                forgetName = add(forgetName, String(m4a1).slice(-2, -1)) + String(m4a1).slice(-1);
             }
         }
         forgetNameArr.push(forgetName);
@@ -67,8 +53,7 @@ function multiply(m, n) {
         }
         return result;
     });
-    // 大数相加还未处理
-    let wyl = String(forgetNameArr.reduce((t, n) => Number(t) + Number(n)));
+    let wyl = String(forgetNameArr.reduce((t, n) => add(t, n)));
     const dotIndex = String(findDotAfter(m) + findDotAfter(n));
     if (Number(dotIndex) !== 0) {
         if (wyl.length <= Number(dotIndex)) {
@@ -87,9 +72,25 @@ function multiply(m, n) {
     }
     return wyl;
 }
-function add (a, b) {
-    let res = a.split('');
-    let assist = [];
+/**
+ * 整型模拟加法
+ * @param {String} m 
+ * @param {String} n 
+ */
+function add (m, n) {
+    let long = '';
+    let short = '';
+    if (m.length >= n.length) {
+        long = m;
+        short = n
+    } else {
+        long = n;
+        short = m;
+    }
+    let res = long.split('');
+    for (let i = 0; i < short.length; i++) {
+        akm(short[short.length - 1 - i], i);
+    }
     function akm (n, i) {
         if (res.length - 1 >= i) {
             let lastAdd = Number(res[res.length - 1 - i]) + Number(n);
@@ -97,15 +98,11 @@ function add (a, b) {
             if (lastAdd >= 10) {
                 akm(String(lastAdd).slice(-2, -1), ++i);
             } else {
-                // jjjj
-                assist.unshift(res);
                 return;
             }
         } else {
             return res.unshift('1');
         }
     }
-    akm(b, 0);
-    return res.join('');
+    return res.join('').replace(/^0*/g, '');
 }
-multiply('-5', '61');
