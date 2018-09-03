@@ -15,7 +15,8 @@ Rectangles can have non-empty intersection, in this way simple solution: Sall = 
 - Number of rectangles in one test (not including simple tests) range from `3000` to `15000`. There are 10 tests with such range. So, your algorithm should be `optimal`.
 
 ## Examples:
-<img src="https://s33.postimg.cc/nf3brdckv/111.png">
+<img src="https://s33.postimg.cc/nf3brdckv/111.png" />
+
 ```js
 // There are three rectangles: R1 = [3,3,8,5], R2 = [6,3,8,9], R3 = [11,6,14,12]
 // S(R1) = 10, S(R2)= 12, S(R3) =  18
