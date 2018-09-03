@@ -43,3 +43,6 @@ index(level) description
 <p>
     <a href="https://github.com/Hilbertangers/codeWar/blob/master/questions/questions_08.md">Q8(2kyu) 24点计算（复杂版）</a>
 </p>
+<p>
+    <a href="https://github.com/Hilbertangers/codeWar/blob/master/questions/questions_09.md">Q9(3kyu) 若干可覆盖矩形总面积计算</a>
+</p>
