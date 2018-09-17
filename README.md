@@ -41,8 +41,5 @@ index(level) description
     <a href="https://github.com/Hilbertangers/codeWar/blob/master/questions/questions_07.md">Q7(3kyu) 字符串数字相乘--模拟乘法和加法</a>
 </p>
 <p>
-    <a href="https://github.com/Hilbertangers/codeWar/blob/master/questions/questions_08.md">Q8(2kyu) 24点计算（复杂版）</a>
-</p>
-<p>
     <a href="https://github.com/Hilbertangers/codeWar/blob/master/questions/questions_09.md">Q9(3kyu) 若干可覆盖矩形总面积计算</a>
 </p>
